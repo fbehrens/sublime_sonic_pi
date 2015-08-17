@@ -19,10 +19,8 @@ _Sonic Pi_ Must be running.
 
 So `sonic_pi play 40` should be working. 
 
-# Hotkeys
-
-`Alt-r`      run current file
-
-`Alt-Enter`  run current selection
-
-`Alt-s`      stop playing 
+|   Hotkeys   |         Action        |
+|-------------|-----------------------|
+| `Alt-r`     | run current file      |
+| `Alt-Enter` | run current selection |
+| `Alt-s`     | stop playing          |
