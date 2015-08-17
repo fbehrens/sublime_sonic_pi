@@ -1,0 +1,5 @@
+  [
+  	{ "keys": ["alt+r"], "command": "sonic_pi_run" },
+  	{ "keys": ["alt+s"], "command": "sonic_pi_stop" },
+  	{ "keys": ["alt+enter"], "command": "sonic_pi_selection" },
+  	]
