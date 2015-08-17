@@ -1,11 +1,12 @@
-import sublime, sublime_plugin
+import sublime, sublime_plugin, shlex
 from subprocess import Popen
 
 def sonic_pi(command):
-    print("play:" + command )
-    Popen("sonic_pi \""+command.replace('"','\\"')+"\"",shell=True)
+    print(shlex.quote(command))
+    Popen("sonic_pi " + shlex.quote(command),shell=True)
 
 class SonicPiRun(sublime_plugin.TextCommand):
+
     def run(self, edit):
         print("run")
         r = sublime.Region(0,self.view.size())
@@ -13,11 +14,13 @@ class SonicPiRun(sublime_plugin.TextCommand):
         sonic_pi(s)
 
 class SonicPiStop(sublime_plugin.TextCommand):
+
     def run(self, edit):
         print("stop")
         sonic_pi("stop")
 
 class SonicPiSelection(sublime_plugin.TextCommand):
+
     def line(self):
         for region in self.view.sel():
             if region.empty():
@@ -29,6 +32,7 @@ class SonicPiSelection(sublime_plugin.TextCommand):
                 return line_contents
             else:
                 return self.view.substr(region)
+
     def run(self, edit):
         print("selection")
         sonic_pi(self.line())
