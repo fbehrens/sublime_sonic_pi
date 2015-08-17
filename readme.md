@@ -12,11 +12,17 @@ It works for me on
 * ruby 2.1.5p273
 
 # more Requirements 
+
 Install _sonic-pi-cli_ gem with  `gem install sonic-pi-cli`
+
 _Sonic Pi_ Must be running. 
+
 So `sonic_pi play 40` should be working. 
 
 # Hotkeys
+
 `Alt-r`      run current file
+
 `Alt-Enter`  run current selection
+
 `Alt-s`      stop playing 
