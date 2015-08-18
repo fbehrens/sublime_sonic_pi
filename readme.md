@@ -19,7 +19,12 @@ _Sonic Pi_ Must be running.
 
 So `sonic_pi play 40` should be working. 
 
-|   Hotkeys   |         Action        |
+Start Sublime with the Command Line ([see](http://ashleynolan.co.uk/blog/launching-sublime-from-the-terminal))
+so that $PATH is correctly set.
+
+# Hotkeys
+
+|     Keys    |         Action        |
 |-------------|-----------------------|
 | `Alt-r`     | run current file      |
 | `Alt-Enter` | run current selection |
