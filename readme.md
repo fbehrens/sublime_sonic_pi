@@ -3,7 +3,7 @@ This plugin can command sonic Pi from sublime. It requires ruby and uses
 [osc-ruby](https://rubygems.org/gems/osc-ruby) and [sonic-pi-cli](https://rubygems.org/gems/sonic-pi-cli), 
 which is a thin commandline wrapper for above.
 
-Install it with `Cmd+Shift+P` `Package Control: Install Package `  `Sonic Pi`
+Install it with [Package Control](https://packagecontrol.io/packages/Sonic%20Pi) `Cmd+Shift+P` `Package Control: Install Package `  `Sonic Pi`
 
 It works for me on
 * OSX 10.10.5 
