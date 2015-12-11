@@ -7,9 +7,9 @@ Install it with [Package Control](https://packagecontrol.io/packages/Sonic%20Pi)
 
 It works for me on
 * OSX 10.10.5 
-* Sublime 3 Build 3083
-* Sonic Pi 2.6
-* ruby 2.1.5p273
+* Sublime 3 Build 3095
+* Sonic Pi 2.7
+* ruby 2.2.2p95
 
 # more Requirements 
 
