@@ -6,10 +6,11 @@ which is a thin commandline wrapper for above.
 Install it with [Package Control](https://packagecontrol.io/packages/Sonic%20Pi) `Cmd+Shift+P` `Package Control: Install Package `  `Sonic Pi`
 
 It works for me on
-* OSX 10.10.5 
-* Sublime 3 Build 3095
-* Sonic Pi 2.7
-* ruby 2.2.2p95
+
+|OSX| Sublime3|ruby| sonic-pi-cli|Sonic pi
+|-|-|-|-|-|
+|10.10.5 | Build 3095|2.2.2p95|0.0.4|2.7
+|10.11.2||||2.8|
 
 # more Requirements 
 
